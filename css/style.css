@@ -39,9 +39,13 @@ a {
 
 .container {
     margin: 0 auto;
-    width: 1000px;
-    max-width: 80%;
+    width: 1500px;
+    max-width: 90%;
     margin-top: 100px;
+}
+
+.margin-left {
+    margin-left: 40px;
 }
 
 /*COMMON*/
@@ -78,9 +82,38 @@ header>nav a {
 .col {
     width: 30%;
     margin-bottom: 50px;
+}
 
-    /*DEBUG*/
-    height: 300px;
-    border: 1px solid black;
+.card {
+    position: relative;
+}
 
+.hearts {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    font-size: 25px;
+    padding: 4px 8px;
+    background-color: white;
+
+}
+
+.discount {
+    color: rgb(255, 255, 255);
+    background-color: rgb(232, 86, 86);
+    font-size: 0.8rem;
+    padding: 2px 4px;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+
+.eco {
+    background-color: rgb(11, 88, 11);
+    color: rgb(255, 255, 255);
+    font-size: 0.8rem;
+    padding: 2px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
 }
