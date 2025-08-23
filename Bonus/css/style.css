@@ -13,3 +13,54 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*LAYOUT*/
+/*COMMON*/
+
+/*UTILITY*/
+.flex {
+    display: flex;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.center {
+    align-items: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1500px;
+    max-width: 95%;
+}
+
+/*HEADER*/
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+
+    /*DEBUG*/
+    border: 1px solid black;
+}
+
+.logo {
+    width: 50px;
+}
+
+nav a {
+    padding: 10px;
+    color: rgb(120, 114, 114);
+}
