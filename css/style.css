@@ -16,9 +16,21 @@ body {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 /*UTILITY*/
+.gray-text {
+    color: rgb(169, 169, 169);
+}
+
+.red-text {
+    color: rgb(214, 48, 48);
+}
+
+.line-through {
+    text-decoration: line-through;
+}
 
 .width30 {
     width: 30%;
@@ -29,8 +41,14 @@ a {
 
 }
 
+
+
 .around {
     justify-content: space-around;
+}
+
+.between {
+    justify-content: space-between;
 }
 
 .align-cent {
@@ -98,6 +116,7 @@ header>nav a {
 
 .card {
     position: relative;
+    cursor: pointer;
 }
 
 .hearts {
@@ -107,6 +126,7 @@ header>nav a {
     font-size: 25px;
     padding: 4px 8px;
     background-color: white;
+    z-index: 2;
 
 }
 
@@ -133,4 +153,42 @@ header>nav a {
 .card:hover .hearts {
     color: red;
     cursor: pointer;
+}
+
+.hidden-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.card:hover .hidden-img {
+    display: block;
+
+}
+
+/*FOOTER*/
+
+footer {
+    color: white;
+    background-color: rgb(26, 26, 26);
+    height: 60px;
+}
+
+.footer-nav {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.footer-nav a {
+    font-size: 0.7rem;
+}
+
+svg {
+    width: 20px;
+}
+
+h4 {
+    font-size: 0.8rem;
+    line-height: 1rem;
 }
