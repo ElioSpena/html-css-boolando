@@ -21,8 +21,14 @@ a {
 
 * p,
 a,
-h3 {
+h3,
+h2 {
     color: rgb(100, 98, 98);
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
 }
 
 /*LAYOUT*/
@@ -59,8 +65,16 @@ h3 {
     flex-direction: column;
 }
 
+.space-around {
+    justify-content: space-around;
+}
+
 .my80 {
     margin-top: 80px;
+}
+
+.max-width50 {
+    max-width: 500px;
 }
 
 /*HEADER*/
@@ -90,7 +104,7 @@ nav a {
     width: 50%;
 }
 
-.box h2 {
+.box h1 {
     font-size: 4rem;
     color: rgb(75, 70, 70);
     max-width: 80%;
@@ -132,3 +146,30 @@ nav a {
 .description p {
     margin-bottom: 40px;
 }
+
+/*REVIEW SECTION*/
+
+.stars {
+    color: rgb(241, 212, 47);
+}
+
+.review h2 {
+    margin-bottom: 52px;
+}
+
+.review p {
+    height: 100%;
+    line-height: 1.5rem;
+}
+
+.review .stars {
+    padding-bottom: 10px;
+}
+
+.list-svg svg {
+    width: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
