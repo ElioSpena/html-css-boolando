@@ -73,8 +73,20 @@ h2 {
     margin-top: 80px;
 }
 
-.max-width50 {
+.max-width500 {
     max-width: 500px;
+}
+
+.width30 {
+    width: 30%;
+}
+
+.bg-gray {
+    background-color: rgb(231, 231, 231);
+}
+
+.pad24 {
+    padding: 24px;
 }
 
 /*HEADER*/
@@ -172,4 +184,20 @@ nav a {
     cursor: pointer;
 }
 
+/*COLLECTION SECTION*/
 
+.label-product a {
+    font-size: 1.3rem;
+    padding: 6px 0;
+}
+
+.label-product .stars {
+    margin-top: 12px;
+}
+
+.label-product :last-child {
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: rgb(37, 168, 37);
+
+}
