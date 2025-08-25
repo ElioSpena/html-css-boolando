@@ -21,7 +21,7 @@ a {
 
 * p,
 a {
-    color: rgb(58, 58, 58);
+    color: rgb(100, 98, 98);
 }
 
 /*LAYOUT*/
@@ -44,6 +44,7 @@ a {
     margin: 0 auto;
     width: 1500px;
     max-width: 95%;
+    max-height: 500px;
 }
 
 .text-center {
@@ -95,8 +96,4 @@ nav a {
     display: inline-block;
     border: 1px solid rgb(120, 114, 114);
     padding: 12px 24px;
-}
-
-.background {
-    background-image: url(../img/banner-bg.png);
 }
