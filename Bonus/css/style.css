@@ -243,3 +243,23 @@ button {
     border-bottom: 1px solid black;
     padding-bottom: 12px;
 }
+
+.faq-ends svg {
+    width: 40px;
+}
+
+.faq-ends p {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.borders {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+
+}
+
+.faq-ends h3 {
+    font-size: 1.4rem;
+    padding: 12px;
+}
