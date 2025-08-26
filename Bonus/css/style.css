@@ -81,6 +81,10 @@ h2 {
     width: 30%;
 }
 
+.width50 {
+    width: 50%;
+}
+
 .bg-gray {
     background-color: rgb(231, 231, 231);
 }
@@ -199,5 +203,38 @@ nav a {
     font-size: 1.6rem;
     font-weight: 900;
     color: rgb(37, 168, 37);
+    padding-bottom: 40px;
 
+}
+
+/*FAQS SECTION*/
+
+.faq {
+    height: 150px;
+    position: relative;
+}
+
+.faq p {
+    display: none;
+}
+
+
+.faq:hover p {
+    display: block;
+}
+
+.hidden {
+    position: static;
+    top: 100%;
+    left: 0;
+}
+
+button {
+    position: absolute;
+    right: 0;
+    top: 24px;
+}
+
+.faq:hover button {
+    display: none;
 }
