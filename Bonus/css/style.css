@@ -212,29 +212,34 @@ nav a {
 .faq {
     height: 150px;
     position: relative;
+    margin-top: 30px;
 }
 
-.faq p {
-    display: none;
-}
-
-
-.faq:hover p {
+.faq:hover .hidden {
     display: block;
 }
 
 .hidden {
-    position: static;
-    top: 100%;
-    left: 0;
+    display: none;
+    padding: 12px;
+    margin: 0 auto;
 }
 
 button {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 24px;
     position: absolute;
     right: 0;
-    top: 24px;
+    top: 0;
 }
 
 .faq:hover button {
     display: none;
+}
+
+.faq h3 {
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 12px;
 }
